@@ -1,5 +1,3 @@
-import { redirectTo } from "@reach/router";
-
 const maxContainerWidth = "70rem";
 const baseLineHeight = 1.45; //24.8px
 const desktopBaseSize = 1.125; //18px
@@ -13,10 +11,10 @@ const fontSizes = scale.map(n => n * mobileBaseSize + "rem");
 fontSizes.desktop = scale.map(n => n * desktopBaseSize + "rem");
 
 const fonts = {
-  heading: "TiemposHeadline",
-  body: "TiemposText",
-  bold: "TiemposBold",
-  italic: "TiemposItalic"
+  heading: "Georgia",
+  body: "Monaco",
+  bold: "Rockwell",
+  italic: "Papyrus",
 };
 const lineHeights = [
   0.5 * baseLineHeight + "rem",
@@ -36,6 +34,9 @@ colors.primary = colors.black[1];
 colors.secondary = colors.tint;
 
 const styles = {
+  root: {
+    fontFamily: 'body'
+  },
   body: {
     fontFamily: "body",
     fontSize: [1, "desktop.1"],

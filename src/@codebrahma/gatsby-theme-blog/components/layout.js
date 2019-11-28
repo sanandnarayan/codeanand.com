@@ -6,11 +6,14 @@ import { ThemeProvider } from 'theme-ui'
 import { Container } from '@theme-ui/components';
 import theme from '../../../theme'
 import Header from '../../../components/header'
-
+import './layout.css'
+//TODO figure out the right way to have the theme specification take care of the bodys font too
 const Layout = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Container>
+      <Container sx={{
+        fontFamily: 'body'
+      }}>
         <Header/>
         <Box mt={[2,2]}>
           <main>{children}</main>
