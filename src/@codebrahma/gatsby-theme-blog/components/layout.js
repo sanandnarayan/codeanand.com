@@ -11,14 +11,19 @@ import './layout.css'
 const Layout = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Container sx={{
-        fontFamily: 'body'
-      }} px={1}>
-        <Header/>
-        <Box mt={[2,2]}>
-          <main>{children}</main>
-        </Box>
-      </Container>
+      <div
+        sx={{
+          fontFamily: 'body',
+          bg: 'background',
+          minHeight: '100vh',
+        }}>
+        <Container px={1}>
+          <Header/>
+          <Box mt={[2,2]}>
+            <main>{children}</main>
+          </Box>
+        </Container>
+      </div>
     </ThemeProvider>
   );
 };

@@ -32,6 +32,7 @@ const colors = {
 };
 colors.primary = colors.black[1];
 colors.secondary = colors.tint;
+colors.background = '#f7f5f2';
 
 const styles = {
   root: {
