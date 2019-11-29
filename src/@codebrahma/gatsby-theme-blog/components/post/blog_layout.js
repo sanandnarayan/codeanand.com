@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 import { Flex, Heading, Box, } from '@theme-ui/components';
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { Helmet } from "react-helmet";
-import Layout from "../../components/layout";
+import Layout from "../../../../components/layout";
 import { Sidebar } from '@codebrahma/gatsby-theme-blog/src/components/post/sidebar'
 
 export const BlogLayout = props => {

@@ -7,7 +7,7 @@ keywords:
 - discipline
 link: /buy-discipline
 category:
-- Life Hacks
+- Life 
 author: Anand Narayan
 tags:
 - discipline
