@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <Container sx={{
         fontFamily: 'body'
-      }}>
+      }} px={1}>
         <Header/>
         <Box mt={[2,2]}>
           <main>{children}</main>

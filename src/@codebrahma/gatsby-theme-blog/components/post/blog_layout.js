@@ -1,4 +1,5 @@
-import React from 'react'
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { Flex, Heading, Box, } from '@theme-ui/components';
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { Helmet } from "react-helmet";
@@ -13,14 +14,19 @@ export const BlogLayout = props => {
       <Helmet>
         <title>{title}</title>
       </Helmet>
-      <Flex flexWrap="wrap">
-        <Box width={["100%", 2 / 3]}>
+      <Flex sx={{flexWrap:'wrap'}}>
+        <Box 
+          sx={{
+            width:['100%', '66%']
+          }}>
           <Box mb={[1,1]}>
             <Heading as='h1'>{title}</Heading>
           </Box>
           <MDXRenderer>{body}</MDXRenderer>
         </Box>
-        <Box width={["100%", 1 / 3]} marginTop={[1, 5]}>
+        <Box marginTop={[1, 5]} sx={{
+            width:['100%', '33%']
+          }}>
           <Sidebar author={author} category={category} tags={tags} />
         </Box>
       </Flex>
