@@ -21,3 +21,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@font-face {
+  font-family: "SourceSerifProBlack";
+  font-style: normal;
+  src: url("../../../../static/fonts/SourceSerifPro-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "SourceSerifProRegular";
+  font-style: normal;
+  src: url("../../../../static/fonts/SourceSerifPro-Regular.otf") format("opentype");
+}

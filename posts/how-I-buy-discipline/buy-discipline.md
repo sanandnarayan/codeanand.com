@@ -15,7 +15,7 @@ tags:
 templateKey: blog-post
 ---
 
-The struggle to stick to plans is eternal. Exercise daily, don’t eat junk, write weekly are simple plans, but require enormous amounts of discipline.
+The struggle to stick to plans is **eternal**. Exercise daily, don’t eat junk, write weekly are simple plans, but require enormous amounts of discipline.
 
 ![time](./images/time.jpeg)
 

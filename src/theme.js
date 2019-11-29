@@ -11,9 +11,9 @@ const fontSizes = scale.map(n => n * mobileBaseSize + "rem");
 fontSizes.desktop = scale.map(n => n * desktopBaseSize + "rem");
 
 const fonts = {
-  heading: "Georgia",
-  body: "Monaco",
-  bold: "Rockwell",
+  heading: "SourceSerifProBlack",
+  body: "SourceSerifProRegular",
+  bold: "SourceSerifProBlack",
   italic: "Papyrus",
 };
 const lineHeights = [
