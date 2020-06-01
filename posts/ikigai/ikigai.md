@@ -16,7 +16,7 @@ tags:
 templateKey: blog-post
 ---
 
-The Okinawan Way of Life has 5 aspects to it. Warm people, Blissful work, light diet & movement, stoic attitude. 
+The Okinawan Way of Life has 5 aspects to it. Warm people, Blissful work, light food & movement, stoic attitude. 
 
 ## Moai - Community
 - Surround yourself with great friends, friends are the best medicine, there for confiding worries over a good chat, sharing stories that brighten your day, getting advice, having fun!! Living!
@@ -35,7 +35,7 @@ Do things you **love** and have **mastered** (satisfying & certain), which the w
 - When you set out to create something. You are using nature to infuse life into it. Create beauty!
 
 
-## Diet
+## Food
 
 Nutrition/Calorie ratio should be super high
 - Rarely eat sugar
