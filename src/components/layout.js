@@ -4,13 +4,18 @@ import { jsx } from 'theme-ui'
 import { Box } from '@theme-ui/components'
 import { ThemeProvider } from 'theme-ui'
 import { Container } from '@theme-ui/components';
+import Helmet from 'react-helmet'
 import theme from '../../src/theme'
 import Header from './header'
+import favicon from '../images/favicon.ico'
 import './layout.css'
 //TODO figure out the right way to have the theme specification take care of the bodys font too
 const Layout = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
+      <Helmet>
+        <link rel="icon" href={favicon} />
+      </Helmet>
       <div
         sx={{
           fontFamily: 'body',
