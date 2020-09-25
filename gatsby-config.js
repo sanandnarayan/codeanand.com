@@ -30,12 +30,19 @@ module.exports = {
     {
       resolve: `@codebrahma/gatsby-theme-blog`,
       options: {
-        contentPath: 'posts',
-        basePath: '/blog',
-        itemsPerPage: 6
-      }
+        contentPath: "posts",
+        basePath: "/blog",
+        itemsPerPage: 6,
+      },
     },
-    'gatsby-plugin-theme-ui'
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://codeanand.us2.list-manage.com/subscribe/post?u=7a8cb005519a28b0700b1ef69&amp;id=40a3125c63",
+      },
+    },
+    "gatsby-plugin-theme-ui",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

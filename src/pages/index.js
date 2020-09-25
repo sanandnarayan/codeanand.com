@@ -3,13 +3,22 @@ import { Link } from "gatsby"
 
 import Image from "../components/image"
 import SEO from "../components/seo"
-import Layout from '../components/layout'
+import Layout from "../components/layout"
+import { Box } from "theme-ui"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi guys, welcome to my world</h1>
-    <p>Check my blog out while i build this page</p>
-    <Link to="/blog/">Blog</Link>
+    <Box>
+      <Link to="/blog/" target="_blank">
+        Blog
+      </Link>
+    </Box>
+    <Box>
+      <Link to="https://twitter.com/codeanand" target="_blank">
+        Twitter
+      </Link>
+    </Box>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
