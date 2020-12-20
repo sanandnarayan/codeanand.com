@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Anand Narayan <anand@codebrahma.com>",
   "dependencies": {
-    "@codebrahma/gatsby-theme-blog": "1.0.5",
+    "@codebrahma/gatsby-theme-blog": "^1.0.13",
     "@emotion/core": "^10.0.22",
     "@mdx-js/react": "^1.5.1",
     "@theme-ui/components": "^0.2.49",
