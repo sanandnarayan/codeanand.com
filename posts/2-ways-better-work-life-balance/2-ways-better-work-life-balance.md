@@ -14,6 +14,7 @@ tags:
 - work life balance
 - qualitative time
 templateKey: blog-post
+image: ./images/work-life-balance.jpeg
 ---
 When we think about work-life balance, we think about the amount of time we spend outside of work.
 
