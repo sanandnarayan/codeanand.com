@@ -997,10 +997,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@codebrahma/gatsby-theme-blog@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@codebrahma/gatsby-theme-blog/-/gatsby-theme-blog-1.0.12.tgz#fc04d9abdb4c4e14f7717fb2bffd0a6a7f1f0c71"
-  integrity sha512-EJ0GqwvTCIGdbaISWIVSCs/bCm/rhm6+f8zzSXRoRaYlZ8fBUn9oN6+veYXzsjMeoaF5bnlewZjTUTjpMAtbyQ==
+"@codebrahma/gatsby-theme-blog@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@codebrahma/gatsby-theme-blog/-/gatsby-theme-blog-1.0.13.tgz#bf8600bda6b391b0d3784cd5e6366ebc9bd1157d"
+  integrity sha512-4HBccfuKy0zq3NHNxyvaROKjw5f1xFd4hivmUjQVLPWD/gYk3RS1y6FvZs4o7SkOQz/io+YFrTfEQM/gtW0SRQ==
   dependencies:
     "@emotion/core" "^10.0.21"
     "@emotion/styled" "^10.0.17"
