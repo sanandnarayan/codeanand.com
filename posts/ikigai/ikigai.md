@@ -57,3 +57,4 @@ Nutrition/Calorie ratio should be super high
 - The way you face difficult situtions make a big difference to our quality of life.Face them with resilience , which means focus on what is important, accept all emotions, and do actions which create new emotions
 > **Accept all emotions, create new emotion via action**
 
+[Highlights from each chapter](https://roamresearch.com/#/app/codeanand/page/Zmrey27la)
