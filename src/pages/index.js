@@ -19,6 +19,11 @@ const IndexPage = () => (
         Twitter
       </Link>
     </Box>
+    <Box>
+      <Link to="https://notes.codeanand.com" target="_blank">
+        Notes
+      </Link>
+    </Box>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
